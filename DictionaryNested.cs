@@ -7,7 +7,7 @@ namespace core.utils;
 /// <summary>
 /// Base Class to represent a Disctionary. Used to Export nested Dictionary typed in Godot Editor.
 /// </summary>
-public abstract partial class DictionaryNested<[MustBeVariant] TKey, [MustBeVariant] TValue>(Dictionary<TKey, TValue> in_dict) : Resource
+public abstract partial class DictionaryNested<[MustBeVariant] TKey, [MustBeVariant] TValue> : Resource
 {
     public abstract Dictionary<TKey, TValue> Dict { get; }
     
